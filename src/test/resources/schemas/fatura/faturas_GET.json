@@ -1,0 +1,145 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "content": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "idConta": {
+              "type": "integer"
+            },
+            "situacaoProcessamento": {
+              "type": "string"
+            },
+            "pagamentoEfetuado": {
+              "type": "boolean"
+            },
+            "dataVencimentoFatura": {
+              "type": "string"
+            },
+            "dataVencimentoReal": {
+              "type": "string"
+            },
+            "dataFechamento": {
+              "type": "string"
+            },
+            "valorTotal": {
+              "type": "number"
+            },
+            "valorPagamentoMinimo": {
+              "type": ["number","null"]
+            },
+            "saldoAnterior": {
+              "type": "number"
+            },
+            "idBoleto": {
+              "type": ["number","null"]
+            },
+            "flagEmiteExtrato": {
+              "type": "boolean"
+            },
+            "linhaDigitavel": {
+              "type": ["string", "null"]
+            },
+            "cetMensal": {
+              "type": ["number","null"]
+            },
+            "cetAnual": {
+              "type": ["number","null"]
+            },
+            "valorPagamentoEfetuado": {
+              "type": ["number","null"]
+            },
+            "saldoAtualizado": {
+              "type": "number"
+            },
+            "valorDebitosFatura": {
+              "type": "number"
+            },
+            "statusPagamento": {
+              "type": ["string","null"]
+            }
+          },
+          "required": [
+            "idConta",
+            "situacaoProcessamento",
+            "pagamentoEfetuado",
+            "dataVencimentoFatura",
+            "dataVencimentoReal",
+            "dataFechamento",
+            "valorTotal",
+            "valorPagamentoMinimo",
+            "saldoAnterior",
+            "idBoleto",
+            "flagEmiteExtrato",
+            "linhaDigitavel",
+            "cetMensal",
+            "cetAnual",
+            "valorPagamentoEfetuado",
+            "saldoAtualizado",
+            "valorDebitosFatura",
+            "statusPagamento"
+          ]
+        }
+      ]
+    },
+    "first": {
+      "type": "boolean"
+    },
+    "firstPage": {
+      "type": "boolean"
+    },
+    "hasContent": {
+      "type": "boolean"
+    },
+    "hasNextPage": {
+      "type": "boolean"
+    },
+    "hasPreviousPage": {
+      "type": "boolean"
+    },
+    "last": {
+      "type": "boolean"
+    },
+    "nextPage": {
+      "type": "integer"
+    },
+    "number": {
+      "type": "integer"
+    },
+    "numberOfElements": {
+      "type": "integer"
+    },
+    "previousPage": {
+      "type": "integer"
+    },
+    "size": {
+      "type": "integer"
+    },
+    "totalElements": {
+      "type": "integer"
+    },
+    "totalPages": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "content",
+    "first",
+    "firstPage",
+    "hasContent",
+    "hasNextPage",
+    "hasPreviousPage",
+    "last",
+    "nextPage",
+    "number",
+    "numberOfElements",
+    "previousPage",
+    "size",
+    "totalElements",
+    "totalPages"
+  ]
+}
