@@ -25,7 +25,6 @@ public class SharedSteps {
     }
 
     @Entao("deve retornar codigo de status {int}")
-
     public void deveRetornarCodigoDeStatus(Integer statusCode) {
         int actualStatusCode = sharedData.getResponse().statusCode();
         assertThat(actualStatusCode).isEqualTo(statusCode);

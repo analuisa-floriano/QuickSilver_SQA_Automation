@@ -20,15 +20,15 @@
     </properties>
 
     <dependencies>
-    <dependency>
-        <groupId>tech.dock.qa</groupId>
-        <artifactId>charles-data</artifactId>
-    </dependency>
+        <dependency>
+            <groupId>tech.dock.qa</groupId>
+            <artifactId>charles-data</artifactId>
+        </dependency>
 
-    <dependency>
-        <groupId>tech.dock.qa</groupId>
-        <artifactId>charles-rest</artifactId>
-    </dependency>
+        <dependency>
+            <groupId>tech.dock.qa</groupId>
+            <artifactId>charles-rest</artifactId>
+        </dependency>
     </dependencies>
 
 </project>

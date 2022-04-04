@@ -11,17 +11,10 @@ rest:
     access_token: sqa64agiplan51
 
 database:
-  postgres:
-    host: localhost
-    port: 5432
-    username: postgres
-    password: 12345
-    db_schema: loki
-
   sqlserver:
-    host: 10.75.30.35
+    host: 10.63.10.51
     port: 1433
-    username: sqa_sup
-    password: sqa@123
-    db_schema: Agiplan
+    username: UserPier
+    password: UserPier
+    db_schema: C6Bank
     domain:

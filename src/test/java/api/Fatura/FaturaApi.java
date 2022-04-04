@@ -5,7 +5,7 @@ import io.restassured.specification.RequestSpecification;
 import tech.dock.rest.payload.Request;
 import tech.dock.rest.util.RestUtils;
 
-public class FaturasApi {
+public class FaturaApi {
 
     private final String LISTAR_FATURAS = "/faturas";
 
